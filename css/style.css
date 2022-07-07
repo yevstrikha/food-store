@@ -266,6 +266,171 @@ h2{
     margin: auto;
 }
 
+                /*P R E M I U M _ B A K E R Y*/
+
+
+.p_bakery_wrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.premium_bakery{
+    padding-top: 80px;
+}
+.premium_bakery h2 span{
+    color: #ff8126;
+}
+.bakery_item{
+    max-width: 210px;
+    width: 100%;
+    margin-right: 30px;
+}
+.bakery_item:last-of-type{
+    margin-right: 0;
+}
+.bakery_item h3{
+    font-family: Cormorant;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1f1f1f;
+    margin-bottom: 10px;
+}
+.bakery_item p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1f1f1f;
+}
+
+                        /*Y O U _ F O O D*/
+.your_food{
+    padding: 80px 0;
+}
+.food_text{
+    margin-right: 30px;
+}
+.food_text h2{
+    text-align: left;
+}
+.food_text h2 span{
+    color: #ff8126;
+}
+.food_wrapper{
+    display: flex;
+}
+.food_text p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #1f1f1f;
+    text-align: left;
+    margin-bottom: 40px;
+}
+.food_list{
+    display: block;
+}
+.food_list li{
+    margin-bottom: 20px;
+}
+.food_list li{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1f1f1f;
+    margin-bottom: 20px;
+}
+
+.food_list li:before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f00c";
+    margin-right: 15px;
+    padding: 3px 4px ;
+    border-radius: 50%  ;
+    background-color: #ff8126;
+    color: white;
+}
+
+.food_list li:last-of-type{
+    margin-bottom: 30px;
+}
+.food_img{
+    background: url(../images/food_img.jpg)no-repeat;
+    background-size: cover;
+    max-width: 570px;
+    width: 100%;
+}
+
+
+.city_bakery{
+    padding: 60px 0;
+    background-color:#6090C3;
+    position: relative;
+
+}
+.city_cover{
+    background-image: url(../images/Frame.svg);
+    background-repeat: repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.city_bakery_content{
+    z-index: 2;
+}
+.city_bakery_content h2{
+    color: white;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.city_bakery_content .container{
+    position: relative;
+    z-index: 2;
+}
+.bakery_logo_img{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.city_bakery_content .btn{
+    display: block;
+    margin: auto;
+    max-width: 350px;
+    width: 100%;
+}
+
+                    /*S U R P R I S E*/
+.surprise{
+    padding: 80px 0;
+    background-color: #fff;
+
+}
+.surprise_flex{
+    display: flex;
+}
+.surprise_img{
+    background-image: url(../images/);
+}
+
+
+
+
+
+
+
+
 
 
 
