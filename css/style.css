@@ -490,7 +490,14 @@ h2{
 
 
 
+.owl-item{
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 10px  rgb(0 0 0 / 25%);    filter: blur(pixel-radius=5);
+    /*margin-right: 30px!important;*/
+    /*max-width: 185px!important;*/
 
+}
 
 
 
