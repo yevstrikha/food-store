@@ -421,9 +421,34 @@ h2{
     display: flex;
 }
 .surprise_img{
-    background-image: url(../images/);
+    background: url(../images/surprise.png)no-repeat;
+    background-size: cover;
+    margin-right: 30px;
+    max-width: 570px;
+    width: 100%;
 }
-
+.surprise_text{
+    padding: 55px 0;
+    max-width: 570px;
+    width: 100%;
+}
+.surprise_text h2{
+    text-align: left;
+    margin-bottom: 20px;
+}
+.surprise_text h2 span{
+    color: #ff8126;
+}
+.surprise_text p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1f1f1f;
+    margin-bottom: 30px;
+}
 
 
 
