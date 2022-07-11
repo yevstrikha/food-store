@@ -325,6 +325,11 @@ h2{
 .food_wrapper{
     display: flex;
 }
+.food_wrapper img{
+    display: block;
+    max-width: 570px;
+    width: 100%;
+}
 .food_text p{
     font-family: Poppins;
     font-size: 16px;
@@ -339,6 +344,7 @@ h2{
     display: block;
     max-width: 570px;
     width: 100%;
+    list-style-position: outside;
 }
 .food_list li{
     margin-bottom: 20px;
@@ -363,11 +369,15 @@ h2{
     color: #fff;
     border-radius: 50%  ;
     background-color: #ff8126;
-    font-size: 18px;
+    font-size: 16px;
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
     content: "\f00c";
     margin-right: 15px;
+    display: block;
+    flex-shrink: 0;
+    text-align: center;
+    align-self: flex-start;
 }
 
 .food_list li:last-of-type{

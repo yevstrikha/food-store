@@ -2,7 +2,13 @@
     .container{
         padding: 0 15px;
     }
-
+    .food_wrapper{
+    flex-wrap: wrap;
+    }
+    .food_wrapper img{
+        max-width: 100% ;
+        order: 1;
+    }
 
 
 
