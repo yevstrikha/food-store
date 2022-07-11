@@ -4,20 +4,7 @@
     }
 
 
-    .food_wrapper{
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .food_text{
-        text-align: center;
-        order: 2;
-    }
-    .food_img, .food_img img {
-        width: 100%;
-    }
-    .bakery_item{
-        margin: 10px 40px  ;
-    }
+
 
 }
 @media only screen and (max-width: 993px) {
@@ -55,6 +42,7 @@
         text-align: center;
         padding: 0 15px;
     }
+
 }
 @media only screen and (max-width: 767px) {
     .bakery_item{

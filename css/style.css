@@ -337,6 +337,8 @@ h2{
 }
 .food_list{
     display: block;
+    max-width: 570px;
+    width: 100%;
 }
 .food_list li{
     margin-bottom: 20px;
@@ -350,13 +352,22 @@ h2{
     text-align: left;
     color: #1f1f1f;
     margin-bottom: 20px;
+    list-style: none;
+    display: flex;
+
 }
 
-.food_list li::marker{
-    height: 20px;
-    width: 20px;
-    background-color: red;
-    color: #1188ff;
+.food_list li:before{
+    height: 24px;
+    width: 24px;
+    color: #fff;
+    border-radius: 50%  ;
+    background-color: #ff8126;
+    font-size: 18px;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f00c";
+    margin-right: 15px;
 }
 
 .food_list li:last-of-type{
