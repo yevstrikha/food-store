@@ -325,9 +325,13 @@ h2{
 .food_wrapper{
     display: flex;
 }
-.food_wrapper img{
+.food_img{
     display: block;
     max-width: 570px;
+    width: 100%;
+}
+.food_img img{
+    display: block;
     width: 100%;
 }
 .food_text p{
