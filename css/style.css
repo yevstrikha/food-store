@@ -522,22 +522,58 @@ h2{
 .owl-carousel .owl-item a {
     display: block;
     width: 100%;
-    max-width: 156px;
     margin: 0;
 }
-.owl-nav .owl-prev{
-    display: block;
-    width: 25px;
-    height: 25px;
-    color: #0000ff;
-    background-color: #0fffff;
-    z-index: 5;
+
+
+.owl-carousel .owl-nav .owl-next{
+    position: absolute;
+    z-index: 10;
+    top: 40%;
+    right: -7%;
+    transform: rotate(180deg);
 }
+.owl-carousel .owl-nav .owl-next:before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f053";
+    color: #B2B2B2;
+    width: 40px;
+    height: 40px;
+    border-radius: 50% ;
+    text-align: center;
+    padding: 15px 18px;
+    border: 1px solid #B2B2B2;
+}
+.owl-carousel .owl-nav .owl-next:before:active{
+    background-color: #ff8126;
+}
+/*/////////////////////////////////////////*/
+.owl-carousel .owl-nav .owl-prev{
+    position: absolute;
+    z-index: 10;
+    top: 40%;
+    left: -7%;
+}
+.owl-carousel .owl-nav .owl-prev:before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f053";
+    color: #B2B2B2;
+    width: 40px;
+    height: 40px;
+    border-radius: 50% ;
+    text-align: center;
+    padding: 15px 18px;
+    border: 1px solid #B2B2B2;
+}
+.owl-carousel .owl-nav .owl-prev:before:hover{
+    background-color: #ff8126;
 
-
-
-
-
+}
+.owl-prev span, .owl-next span{
+    display: none;
+}
 .bakery_item img{
     animation: try 3s 1;
 }
@@ -582,6 +618,7 @@ h2{
     display: flex;
     list-style: none;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .social_list ul li{
     margin-right: 30px;

@@ -5,9 +5,25 @@
     .food_wrapper{
     flex-wrap: wrap;
     }
+    .food_text{
+        margin-bottom: 20px;
+    }
     .food_wrapper img{
         max-width: 100% ;
         order: 1;
+    }
+    .owl-carousel .owl-nav .owl-next{
+        position: absolute;
+        z-index: 10;
+        top: 109%;
+        right:0;
+        transform: rotate(180deg);
+    }
+    .owl-carousel .owl-nav .owl-prev{
+        position: absolute;
+        z-index: 10;
+        top: 110%;
+        left: 85%;
     }
 
 
@@ -18,13 +34,20 @@
         flex-wrap: wrap;
     }
     .offer_item{
-        margin: 10px 30px;
+        margin: 20px 30px;
     }
     .bakery_item{
         margin: 10px 20px  ;
     }
+    .food_text{
+        margin-bottom: 20px;
+        margin-right: 0;
+        text-align: center;
+        align-items: center;
+    }
     .food_text h2{
         margin-top: 15px;
+        text-align: center;
     }
     .surprise_flex{
         flex-wrap: wrap;
@@ -65,15 +88,29 @@
     .surprise_img, .surprise_text{
         max-width: 100% ;
     }
-.surprise_img img{
+    .surprise_img img{
     display: block;
     width: 100%;
 }
+    .food_wrapper img, .surprise_img{
+        display: none;
+    }
+    .social_list ul li{
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .social_list{
+        max-width: 80%;
+        margin: auto;
+    }
+
 }
 @media only screen and (max-width: 420px) {
     .offer_item{
         width: 100%;
     }
+
 }
 @media only screen and (max-width: 375px) {
     .food_text h2 {
@@ -88,3 +125,7 @@
 @media only screen and (max-width: 320px) {
 
 }
+
+.owl-carousel .owl-nav.disabled,
+.owl-carousel .owl-dots.disabled {
+    display: contents; }
