@@ -377,7 +377,6 @@ h2{
     display: block;
     flex-shrink: 0;
     text-align: center;
-    align-self: flex-start;
 }
 
 .food_list li:last-of-type{
@@ -506,28 +505,37 @@ h2{
 
 
 .instagram_carousel{
-    max-width: 1050px;
+    max-width: 1055px;
     width: 100%;
     margin: auto;
 }
 
-.owl-item{
+.owl-item {
     padding: 15px;
     background-color: #fff;
     box-shadow: 0 0 10px  rgb(0 0 0 / 25%);
-    filter: blur(pixel-radius=5);
-    width: 186px;
+    margin: 5px 0;
 
 }
-.owl-carousel .owl-nav .disabled{
-    display: none;
+
+
+.owl-carousel .owl-item a {
+    display: block;
+    width: 100%;
+    max-width: 156px;
+    margin: 0;
 }
-.owl-carousel .owl-nav button.owl-prev{
-    width: 50px;
-    height: 50px;
-    background-color: #000;
-    color: #ff0000;
+.owl-nav .owl-prev{
+    display: block;
+    width: 25px;
+    height: 25px;
+    color: #0000ff;
+    background-color: #0fffff;
+    z-index: 5;
 }
+
+
+
 
 
 .bakery_item img{
@@ -548,11 +556,57 @@ h2{
 
 
 
+                     /*T E L L _ F R I E N D S*/
+.tell_friends{
+    padding: 60px 0;
+    background-color: #fff0e5;
+    position: relative;
+}
+.friends_cover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: url(../images/Group.svg)repeat;
+    background-size: cover;
+}
+.tell_friends h2{
+    margin-bottom: 40px;
+}
+.tell_friends .container{
+    z-index: 5;
+    position: relative;
+}
+.social_list ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.social_list ul li{
+    margin-right: 30px;
+}
+.social_list ul li:hover{
+    transform-origin: 50% 50%;
+    animation: social .5s 1;
+}
+@keyframes social {
+    0%   {transform: translate3d(0,0,0) scale3d(1,1,1);}
+    25%  {transform: translate3d(0,-15%,0) scale3d(.7,1.5,1);}
+
+    50%  {transform: translate3d(0,-30%,0) scale3d(.7,1.5,1);}
+    50%  {transform: translate3d(0,-15%,0) scale3d(.7,1.5,1);}
+
+
+   100%   {transform: translate3d(0,0,0) scale3d(1,1,1);}
+
+}
 
 
 
-
-
+.social_list ul li:last-of-type{
+    margin-right: 0;
+}
 
 
 
