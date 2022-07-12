@@ -608,7 +608,60 @@ h2{
     margin-right: 0;
 }
 
+footer{
+    padding: 60px 0;
+    background-color: #fff;
 
+}
+.footer_content{
+    display: flex;
+    justify-content: space-between;
+}
+footer ul li{
+    list-style: none;
+    margin-bottom: 15px;
+    transition: 0.3s;
+    position: relative;
+}
+footer ul li:last-of-type{
+    margin-bottom: 0;
+}
+footer a{
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #3d3d3d;
+}
+footer a:hover{
+    color: #ff8126;
+
+}
+footer li:hover{
+    left: -10%;
+}
+.footer_brands a, .footer_about a{
+    margin-bottom: 15px;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1f1f1f;
+}
+footer p{
+    margin-bottom: 15px;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1f1f1f;
+}
 
 
 
