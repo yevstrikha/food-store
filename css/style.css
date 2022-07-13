@@ -733,6 +733,14 @@ footer p{
     color: #1F1F1F;
     padding: 15px 0;
 }
+
+
+
+.od_promo_banner{
+    position: sticky;
+    top: 0;
+}
+
 .od_promo_banner .main_container{
     position: relative;
 }
